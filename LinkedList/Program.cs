@@ -91,6 +91,7 @@ namespace LinkedList
         }
 
         // AddFirst
+        // 시작 위치에 지정된 값이 포함된 새 노드를 추가
         public LinkedListNode<T> AddFirst(T value)
         {
             LinkedListNode<T> newNode = new LinkedListNode<T>(this, value);
@@ -107,6 +108,7 @@ namespace LinkedList
         }
 
         // AddLast
+        // LinkedListNode의 끝에 지정한 새 노드를 추가
         public LinkedListNode<T> AddLast(T value)
         {
             LinkedListNode<T> newNode = new LinkedListNode<T>(this, value);
